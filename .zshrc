@@ -20,7 +20,7 @@ alias gpu="git push -u"
 alias gcm="git commit -am"
 alias gpl="git pull"
 alias gfe="git fetch -p"
-alias clc="claude"
+alias clc="claude --dangerously-skip-permissions"
 alias dev="cd ~/Development"
 alias alveary="cd ~/Development/alveary"
 
