@@ -1,5 +1,10 @@
 @/Users/afollestad/.claude/RTK.md
 
+# Rendering multiple points
+
+- When showing multiple points, like alphanumeric options (i.e. `(a)`, `(b)`, `(c)`), then render each option on a separate line with two spaces in front.
+- Make points as concise as possible for quick readability, while maintaining information.
+
 # Git Commits
 
 - Make changes on the `main` branch unless I say otherwise.
@@ -9,6 +14,7 @@
 - Surround file, class, function, variable, etc. names with ticks (`).
 - Run the global `/self-review-diff` skill loop before committing changes.
 - Do *not* prefix commits with conventional messages like `feat:`, `fix:`, or `chore:`.
+- Avoid adding unnecessary line breaks in commit messages bodies. Only put line breaks between paragraphs; there's no need to limit the length of lines.
 
 # Plan Building
 
