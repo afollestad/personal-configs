@@ -1,7 +1,10 @@
+When the name of another project is referenced without a relative or absolute path, check for it in the `~/Development` folder.
+
 # Fundamentals
 
 - When showing multiple points, like alpha-numeric options (i.e. `(a)`, `(b)`, `(c)`), then render each option on a separate line with two spaces in front.
 - Make data as concise as possible (minimze verbosity when not needed), while still maintaining necessary information.
+- Avoid hacky or potentially flaky solutions to problems or bugs.
 
 # Git Commits
 
@@ -39,9 +42,3 @@ When working in web projects, you can launch Google Chrome if it's not running w
 ```sh
 open -a "Google Chrome.app"
 ```
-
-## cua-driver
-
-- Thd `cua-driver` skill can be used to control and record desktop apps. 
-- Be careful around apps that may expose sensitive data. 
-- Do not use the `desktop` capture scope unless the user gives explicit confirmation.
