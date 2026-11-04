@@ -42,3 +42,9 @@ When working in web projects, you can launch Google Chrome if it's not running w
 ```sh
 open -a "Google Chrome.app"
 ```
+
+## cua-driver
+
+- Thd `cua-driver` skill can be used to control and record desktop apps. 
+- Be careful around apps that may expose sensitive data. 
+- Do not use the `desktop` capture scope unless the user gives explicit confirmation.
