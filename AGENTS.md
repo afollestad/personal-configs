@@ -28,7 +28,7 @@ We generally should run the global `/self-review-diff` skill loop after finishin
 - If a plan has multiple phases, each phase should have its own `/self-review-diff` loop.
 - If a subsquent phase depends on a previous phase for a pinned/remote dependency, the previous phase should push first for the subsquent phase.
 - If additional phases are added, they must also use the `/self-review-diff` skill loop before committing.
-- Before proposing the plan to the user, be extra sure the plan is comprehensive and accurate. Double check if anything is missing and should be added.
+- Before proposing the plan to the user, grill the user with questions to make sure bases are covered and there won't be any misdirection. Ensure the plan is accurate and isn't missing anything.
 
 # SwiftPM in repos
 
